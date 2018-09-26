@@ -1,11 +1,11 @@
 env:
    global:
      - CONAN_REFERENCE: "TBB/4.4.4"
-     - CONAN_USERNAME: "conan"
-     - CONAN_LOGIN_USERNAME: "conanbot"
-     - CONAN_CHANNEL: "testing"
+     - CONAN_USERNAME: "camposs"
+     - CONAN_LOGIN_USERNAME: "camposs"
+     - CONAN_CHANNEL: "stable"
      - CONAN_STABLE_BRANCH_PATTERN: "stable/*"
-     - CONAN_UPLOAD: "https://api.bintray.com/conan/conan-community/conan"
+     - CONAN_UPLOAD: "https://conan.campar.in.tum.de"
      - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1
 
 linux: &linux
