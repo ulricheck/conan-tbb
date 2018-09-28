@@ -6,12 +6,11 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_REFERENCE: "TBB/4.4.4"
+    CONAN_UPLOAD: "https://conan.campar.in.tum.de/api/conan/conan-camposs"
+    CONAN_REMOTES: "https://conan.campar.in.tum.de/api/conan/conan-camposs"
     CONAN_USERNAME: "camposs"
-    CONAN_LOGIN_USERNAME: "camposs"
     CONAN_CHANNEL: "stable"
-    CONAN_STABLE_BRANCH_PATTERN: "stable/*"
-    CONAN_UPLOAD: "https://conan.campar.in.tum.de"
-    CONAN_UPLOAD_ONLY_WHEN_STABLE: 1
+    CONAN_STABLE_BRANCH_PATTERN: "release/*"
 
     matrix:
         - MINGW_CONFIGURATIONS: "4.9@x86_64@seh@posix, 5@x86_64@seh@posix, 6@x86_64@seh@posix, 7@x86_64@seh@posix"
